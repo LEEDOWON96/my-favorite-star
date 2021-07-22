@@ -3,8 +3,6 @@ version: "3.9"
 services:
   my-favorite-star:
     image: leedowon/my-favorite-star:latest
-    volumes:
-      - ./templates:/templates
     ports:
       - 80:5000
   mongo:
